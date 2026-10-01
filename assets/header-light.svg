@@ -1,33 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
-  <title id="title">Manal Aros, software engineer</title>
-  <desc id="desc">Software engineer. I build things and figure out how they work.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Manal Aros — software engineer</title>
+  <desc id="desc">A colorful, modern introduction banner for Manal Aros.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F7F7FA"/>
-      <stop offset="1" stop-color="#FFFFFF"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
     </linearGradient>
-    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.96"/>
-      <stop offset="0.62" stop-color="#FFFFFF" stop-opacity="0.78"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#DB2777"/>
     </linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
-    <clipPath id="frame"><rect width="1000" height="340" rx="30"/></clipPath>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="46"/></filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="32"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#64748B" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1000" height="340" fill="url(#bg)"/>
-    <g filter="url(#blur)" opacity="0.65">
-      <circle r="125" fill="#0A84FF" cx="700" cy="80"/>
-      <circle r="115" fill="#BF5AF2" cx="870" cy="130"/>
-      <circle r="110" fill="#FF375F" cx="820" cy="285"/>
-      <circle r="95" fill="#FF9F0A" cx="570" cy="305"/>
-      <circle r="85" fill="#64D2FF" cx="475" cy="40"/>
+    <rect width="1200" height="380" fill="url(#background)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <g filter="url(#blur)">
+      <circle cx="980" cy="48" r="150" fill="#60A5FA" fill-opacity="0.55"/>
+      <circle cx="1080" cy="300" r="170" fill="#F472B6" fill-opacity="0.42"/>
+      <circle cx="760" cy="350" r="125" fill="#A78BFA" fill-opacity="0.40"/>
     </g>
-    <rect width="1000" height="340" fill="url(#shade)"/>
-    <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-      <text x="64" y="150" font-size="30" font-weight="500" fill="#3A3A3C">Hi, I'm</text>
-      <text x="62" y="236" font-size="96" font-weight="700" letter-spacing="-3" fill="#1C1C1E">Manal Aros</text>
-      <text x="64" y="288" font-size="26" font-weight="400" fill="#3A3A3C">Software engineer. I build things and figure out how they work.</text>
+    <rect x="48" y="48" width="1104" height="284" rx="24" fill="#FFFFFF" fill-opacity="0.48" stroke="#FFFFFF" stroke-opacity="0.85"/>
+    <rect x="48" y="48" width="8" height="284" rx="4" fill="url(#accent)"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="96" y="142" font-size="28" font-weight="500" fill="#475569">Hi, I'm</text>
+      <text x="92" y="234" font-size="94" font-weight="750" letter-spacing="-4" fill="#0F172A">Manal Aros</text>
+      <text x="98" y="286" font-size="25" font-weight="500" fill="#475569">Software engineer · curious mind · thoughtful builder</text>
     </g>
+    <circle cx="1062" cy="112" r="10" fill="#2563EB"/>
+    <circle cx="1092" cy="142" r="6" fill="#DB2777"/>
+    <circle cx="1030" cy="154" r="7" fill="#7C3AED"/>
   </g>
 </svg>

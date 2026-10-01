@@ -2,22 +2,19 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-    <img src="./assets/header-light.svg" alt="Hi, I'm Manal Aros — software engineer" width="100%">
+    <img src="./assets/header-light.svg" alt="Manal Aros — software engineer" width="100%">
   </picture>
 
   <br>
   <br>
 
-  <h3>Software engineer · Spain</h3>
-  <p>Building useful things with curiosity, intention, and a little obsession for the details.</p>
+  <p><strong>Software engineer · Spain</strong></p>
+  <p>Curious about how things work.<br>Passionate about building things that matter.</p>
 
   <p>
-    <a href="https://www.linkedin.com/in/manal-aros">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
-    </a>
-    <a href="mailto:manalaros@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email">
-    </a>
+    <a href="https://www.linkedin.com/in/manal-aros">LinkedIn</a>
+    <span aria-hidden="true"> · </span>
+    <a href="mailto:manalaros@gmail.com">Email</a>
   </p>
 </div>
 
@@ -31,25 +28,9 @@
 
 <br>
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <strong>01</strong><br>
-      <sub>Understand deeply</sub>
-    </td>
-    <td align="center" width="33%">
-      <strong>02</strong><br>
-      <sub>Build thoughtfully</sub>
-    </td>
-    <td align="center" width="33%">
-      <strong>03</strong><br>
-      <sub>Keep improving</sub>
-    </td>
-  </tr>
-</table>
-
-<br>
-
 <div align="center">
-  <em>Curious by nature. Persistent by choice.</em>
+  <p><strong>Currently</strong></p>
+  <p>Learning deeply · Building thoughtfully · Improving constantly</p>
+  <br>
+  <em>Stay curious. Make it useful.</em>
 </div>
