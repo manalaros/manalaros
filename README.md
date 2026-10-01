@@ -29,7 +29,7 @@
 <br>
 
 <div align="center">
-  <p><strong>Currently</strong></p>
+  <p><strong>What drives me</strong></p>
   <p>Learning deeply · Building thoughtfully · Improving constantly</p>
   <br>
   <em>Stay curious. Make it useful.</em>
