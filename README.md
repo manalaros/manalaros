@@ -62,6 +62,6 @@
 ## 🤝 Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manal-aros)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tu-email@ejemplo.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:manalaros@gmail.com)
 
 <p align="center"><i>Always happy to chat about code, side projects, or good ideas. ☕</i></p>
