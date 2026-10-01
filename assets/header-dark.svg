@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">Manal Aros, software engineer</title>
+  <desc id="desc">Software engineer. I build things and figure out how they work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#1C1C1E"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.82"/>
+      <stop offset="0.58" stop-color="#000000" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+    <clipPath id="frame"><rect width="1000" height="340" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="340" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity="0.85">
+      <circle r="125" fill="#0A84FF" cx="700" cy="80"/>
+      <circle r="115" fill="#BF5AF2" cx="870" cy="130"/>
+      <circle r="110" fill="#FF375F" cx="820" cy="285"/>
+      <circle r="95" fill="#FF9F0A" cx="570" cy="305"/>
+      <circle r="85" fill="#64D2FF" cx="475" cy="40"/>
+    </g>
+    <rect width="1000" height="340" fill="url(#shade)"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="64" y="150" font-size="30" font-weight="500" fill="#EBEBF5" fill-opacity="0.78">Hi, I'm</text>
+      <text x="62" y="236" font-size="96" font-weight="700" letter-spacing="-3" fill="#FFFFFF">Manal Aros</text>
+      <text x="64" y="288" font-size="26" font-weight="400" fill="#EBEBF5" fill-opacity="0.84">Software engineer. I build things and figure out how they work.</text>
+    </g>
+  </g>
+</svg>

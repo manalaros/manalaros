@@ -1,4 +1,8 @@
-<img src="./assets/header.svg" alt="Hi, I'm Manal Aros. Software engineer. I build things and figure out how they work." width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img src="./assets/header-light.svg" alt="Hi, I'm Manal Aros. Software engineer. I build things and figure out how they work." width="100%">
+</picture>
 
 <br>
 
@@ -8,7 +12,11 @@ I learn by building. Most of what I know I picked up by starting something sligh
 
 <br>
 
-<img src="./assets/divider.svg" alt="" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
 
 <br>
 
@@ -38,7 +46,11 @@ I learn by building. Most of what I know I picked up by starting something sligh
 
 <br>
 
-<img src="./assets/divider.svg" alt="" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
 
 <br>
 
