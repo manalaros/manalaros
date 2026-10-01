@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Manal Aros, software engineer">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#1C1C1E"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.78"/>
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="58"/>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="340" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="340" fill="url(#base)"/>
+    <g filter="url(#soft)" opacity="0.9">
+      <circle r="130" fill="#0A84FF" cx="640" cy="80"><animate attributeName="cx" values="640;760;640" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="80;170;80" dur="12s" repeatCount="indefinite"/></circle>
+      <circle r="120" fill="#BF5AF2" cx="860" cy="120"><animate attributeName="cx" values="860;740;860" dur="18s" repeatCount="indefinite"/><animate attributeName="cy" values="120;40;120" dur="13s" repeatCount="indefinite"/></circle>
+      <circle r="115" fill="#FF375F" cx="820" cy="290"><animate attributeName="cx" values="820;930;820" dur="15s" repeatCount="indefinite"/><animate attributeName="cy" values="290;230;290" dur="17s" repeatCount="indefinite"/></circle>
+      <circle r="100" fill="#FF9F0A" cx="560" cy="310"><animate attributeName="cx" values="560;660;560" dur="19s" repeatCount="indefinite"/><animate attributeName="cy" values="310;250;310" dur="14s" repeatCount="indefinite"/></circle>
+      <circle r="90" fill="#64D2FF" cx="470" cy="40"><animate attributeName="cx" values="470;560;470" dur="20s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect width="1000" height="340" fill="url(#shade)"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="1.2s" begin="0.2s" fill="freeze"/>
+      <text x="64" y="150" font-size="30" font-weight="500" fill="#EBEBF5" fill-opacity="0.72">Hi, I'm</text>
+      <text x="62" y="236" font-size="96" font-weight="700" letter-spacing="-3" fill="#FFFFFF">Manal Aros</text>
+      <text x="64" y="288" font-size="26" font-weight="400" fill="#EBEBF5" fill-opacity="0.8">Software engineer. I build things and figure out how they work.</text>
+    </g>
+  </g>
+</svg>
